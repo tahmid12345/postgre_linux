@@ -1,0 +1,18 @@
+Installing postgreSql on linux
+
+Step 1 : https://www.youtube.com/watch?v=-LwI4HMR_Eg&ab_channel=ProgrammingKnowledge (not necessary)
+Step 2 : Install pgAdmin4
+Step 3: on terminal type - sudo apt-get install php-pgsql
+Step 4 : go to Computer->etc->php->7.4->apache2->php.ini
+Step 5 : use chmod 777 to activate read write edit for php.ini
+Step 6: find postgreSql and uncomment all the commented areas
+
+A demo setup of .env file from laravel (linux),
+
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=test
+DB_USERNAME=postgres
+DB_PASSWORD=password
+
